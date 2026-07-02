@@ -1,4 +1,4 @@
-# tailwind-theme-sweep
+# Tailwind-theme-sweep
 
 A Node.js CLI tool that automates Tailwind CSS class replacement across large React and TypeScript codebases using AST-level parsing via [ts-morph](https://ts-morph.com/).
 
