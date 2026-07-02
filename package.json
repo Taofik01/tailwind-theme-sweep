@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-theme-sweep",
+  "version": "1.0.0",
+  "description": "Automate Tailwind CSS class replacement across large React/TypeScript codebases using ts-morph AST parsing",
+  "main": "sweep.js",
+  "bin": {
+    "theme-sweep": "./sweep.js"
+  },
+  "scripts": {
+    "sweep": "node sweep.js",
+    "sweep:dry": "node sweep.js --dry-run"
+  },
+  "keywords": ["tailwind", "tailwindcss", "theme", "migration", "codemod", "ts-morph", "react", "typescript"],
+  "author": "Sulaimon Taofik <sulaimontaofik08@gmail.com> (https://taofik.vercel.app)",
+  "license": "MIT",
+  "dependencies": {
+    "ts-morph": "^21.0.0"
+  }
+}

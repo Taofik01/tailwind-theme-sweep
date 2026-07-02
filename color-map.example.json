@@ -1,0 +1,14 @@
+{
+  "bg-gray-950": "bg-surface-deep",
+  "bg-gray-900": "bg-surface",
+  "bg-gray-800": "bg-surface-elevated",
+  "bg-black": "bg-base",
+  "text-white": "text-primary",
+  "text-gray-300": "text-secondary",
+  "text-gray-400": "text-muted",
+  "text-gray-500": "text-faint",
+  "text-gray-600": "text-faint",
+  "border-gray-800": "border-default",
+  "border-gray-700": "border-default",
+  "border-gray-600": "border-strong"
+}
