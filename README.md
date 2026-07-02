@@ -118,7 +118,7 @@ node sweep.js --dry-run --config ./my-map.json --src ./src --ext ts,tsx
 ## Output
 
 ```
-🧹 tailwind-theme-sweep
+ tailwind-theme-sweep
    Mode     : DRY RUN (no files will be written)
    Source   : ./src
    Config   : ./color-map.json
@@ -127,16 +127,16 @@ node sweep.js --dry-run --config ./my-map.json --src ./src --ext ts,tsx
 
 ─────────────────────────────────────────
 
-📄 src/components/Dashboard.tsx
+ src/components/Dashboard.tsx
    - "bg-gray-900 text-white border-gray-800"
    + "bg-surface text-primary border-default"
 
-📄 src/components/Sidebar.tsx
+ src/components/Sidebar.tsx
    - "bg-gray-800 text-gray-300"
    + "bg-surface-elevated text-secondary"
 
 ─────────────────────────────────────────
-🔍 DRY RUN — no files written
+ DRY RUN — no files written
    Files modified : 2
    Nodes updated  : 4
 ```
